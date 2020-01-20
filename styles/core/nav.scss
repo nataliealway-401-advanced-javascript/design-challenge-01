@@ -1,0 +1,24 @@
+@import '../lib/mixins';
+@import '../lib/variables';
+
+li {
+    background-color: tomato;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  
+  li a {
+    background-color: white;
+    text-decoration: none;
+    color: tomato;
+    width: 200px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
