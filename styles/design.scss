@@ -5,26 +5,3 @@
 @import url('./styles/lib/_mixins.scss');
 @import url('./styles/lib/_variables.scss');
 
-main {
-    background-color: $backgroundColor;
-}
-
-header {
-    @include border(10px);
-    background-color: $rootColor;
-    color: $accentColor;
-}
-
-a {
-    color: $accentColor;
-}
-
-p {
-    color: $bleed;
-    margin: $space;
-}
-
-footer {
-    background-color: $rootColor;
-    color: $accentColor;
-}
